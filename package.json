@@ -1,0 +1,28 @@
+{
+  "name": "maxmind-geoip2-csv-column",
+  "version": "1.0.0",
+  "description": "Read csv ip column and Add geoip2 data columns.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talsu/maxmind-geoip2-csv-column.git"
+  },
+  "keywords": [
+    "maxmind",
+    "csv"
+  ],
+  "author": "talsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/talsu/maxmind-geoip2-csv-column/issues"
+  },
+  "homepage": "https://github.com/talsu/maxmind-geoip2-csv-column#readme",
+  "dependencies": {
+    "csv": "^3.1.0",
+    "maxmind": "^2.7.0",
+    "yargs": "^12.0.1"
+  }
+}
